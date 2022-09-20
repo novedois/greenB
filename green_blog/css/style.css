@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #def0e8;;
+}
+
+.main__subtitulo {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/capa_2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header__logo,
+.header__navegacao__lista,
+.header__navegacao__container {
+    display: none;
+}
+
+
+.header__titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.header__titulo-principal {
+    font-size: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #def0e8;
+}
+
+.header__subtitulo-principal {
+    font-size: 2em;
+    color: #def0e8;
+}
+
+.header__navegacao__container {
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamb,
+.fecha {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.active {
+    display: unset;
+}
+
+.invisivel {
+    display: none;
+}
+
+.latest__card {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 14px #d3d3d3;
+}
+
+.latest__card__img {
+    width: 100%;
+}
+
+.latest__card__texto {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 10px;
+
+}
+
+.about__img {
+    width: 100%;
+}
+
+.about__texto {
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe {
+    background-color: white;
+    padding: 20px;
+}
+
+.subscribe__input {
+    display: block;
+    padding: 8px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.subscribe__botao {
+    margin: 0 auto;
+    display: block;
+    padding: 8px;
+    width: 40%;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.footer__lista__redes,
+.footer__lista__links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__lista__redes {
+    width: 30%;
+}
+
+.footer__lista__links {
+    width: 60%;
+}
+
+
+@media (min-width: 720px) {
+    .latest__lista__cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .latest__card {
+        width: 28%;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        margin-top: 75px;
+
+    }
+
+    .about__img {
+        max-width: 50%;
+        min-width: 50%;
+    }
+
+    .latest {
+        margin-top: 120px;
+    }
+}

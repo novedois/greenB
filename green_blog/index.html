@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Green Blog</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__navegacao">
+            <i class="fa-solid fa-bars hamb"></i>
+            <i class="fa-solid fa-xmark fecha invisivel"></i>
+            <div class="header__navegacao__container invisivel">
+                <h1 class="header__logo">Logo</h1>
+                <ul class="header__navegacao__lista">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header__titulos">
+            <h2 class="header__titulo-principal">Lombok</h2>
+            <h3 class="header__subtitulo-principal">Holistic Health</h3>
+        </div>
+    </header>
+
+    <main>
+        <section class="latest">
+            <h2 class="main__subtitulo">Latest Articles</h2>
+
+            <div class="latest__lista__cards">
+                <div class="latest__card">
+                    <img src="img/card_1.jpg" alt="" class="latest__card__img">
+                    <p class="latest__card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem!</p>
+                </div>
+    
+                <div class="latest__card">
+                    <img src="img/card_2.jpg" alt="" class="latest__card__img">
+                    <p class="latest__card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem!</p>
+                </div>
+    
+                <div class="latest__card">
+                    <img src="img/card_3.jpg" alt="" class="latest__card__img">
+                    <p class="latest__card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <img src="img/about.jpg" alt="" class="about__img">
+            
+            <div class="about__texto">
+                <h2 class="main__subtitulo">About</h2>
+                <p class="about__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloremque nisi quia tenetur, expedita adipisci perferendis sequi accusamus error consequatur dolor reiciendis incidunt est architecto voluptatibus? </p>
+            </div>
+
+        </section>
+
+        <section class="subscribe">
+            <h2 class="main__subtitulo">Subscribe</h2>
+            <p class="subscribe__texto">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <input type="email" name="" id="" class="subscribe__input">
+            <button class="subscribe__botao">submit</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__lista__redes">
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+        </ul>
+        <ul class="footer__lista__links">
+            <li><a href="#">about</a></li>
+            <li><a href="#">articles</a></li>
+            <li><a href="#">subscribe</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
